@@ -17,7 +17,7 @@ const interceptor = createInterceptor({
   clientId: 'xxx',
   clientSecret: 'yyy',
   tokenUrl: 'https://example.com/token-endpoint',
-  retryIntervalMs: 10e3
+  retryIntervalMs: 10e3,
   retryMaxAttempts: 10,
 });
 ```
