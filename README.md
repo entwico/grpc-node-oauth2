@@ -15,7 +15,7 @@ import { createInterceptor } from 'grpc-node-oauth2';
 
 const interceptor = createInterceptor({
   clientId: 'xxx',
-  clientSecret: 'yyy'
+  clientSecret: 'yyy',
   tokenUrl: 'https://example.com/token-endpoint',
   retryIntervalMs: 10e3
   retryMaxAttempts: 10,
