@@ -61,10 +61,14 @@ export class TokenWallet {
     let scheduledInMs = 1 * 60 * 1e3;
 
     try {
-      const { exp } = jwtDecode<JwtPayload>(token);
+      let { exp } = jwtDecode<JwtPayload>(token);
 
-      if (exp && !Number.isNaN(exp) && exp > Date.now()) {
-        scheduledInMs = exp * 1e3 * .95 - Date.now();
+      if (exp && !Number.isNaN(exp)) {
+        exp *= 1e3;
+
+        if (exp > Date.now()) {
+          scheduledInMs = exp * .95 - Date.now();
+        }
       }
     } catch(ex) {
       this.config.onScheduleError?.(ex as Error);
