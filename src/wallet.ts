@@ -67,7 +67,7 @@ export class TokenWallet {
         exp *= 1e3;
 
         if (exp > Date.now()) {
-          scheduledInMs = exp * .95 - Date.now();
+          scheduledInMs = (exp - Date.now()) * .95;
         }
       }
     } catch(ex) {
