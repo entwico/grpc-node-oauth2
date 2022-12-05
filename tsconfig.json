@@ -5,13 +5,14 @@
     "outDir": "./dist",
     "sourceMap": false,
     "declaration": true,
+    "strict": true,
     "downlevelIteration": true,
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "target": "es5",
     "module": "commonjs",
     "lib": [
-      "es2018"
+      "ES2022"
     ]
   }
 }
