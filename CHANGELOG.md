@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/entwico/grpc-node-oauth2/compare/v1.0.1...v1.1.0) (2022-12-05)
+
+
+### Features
+
+* add logging hooks, use real exp for refetching the token ([3748e68](https://github.com/entwico/grpc-node-oauth2/commit/3748e683d1cd6eae26ace53ab0c5845828782e61))
+
 ## [1.0.1](https://github.com/entwico/grpc-node-oauth2/compare/v1.0.0...v1.0.1) (2021-08-21)
 
 
