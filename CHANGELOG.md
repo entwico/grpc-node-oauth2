@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/entwico/grpc-node-oauth2/compare/v1.1.1...v1.1.2) (2022-12-05)
+
+
+### Bug Fixes
+
+* fix exp offset ([b950f78](https://github.com/entwico/grpc-node-oauth2/commit/b950f785824b878329c0018e338372049c63afb7))
+
 ## [1.1.1](https://github.com/entwico/grpc-node-oauth2/compare/v1.1.0...v1.1.1) (2022-12-05)
 
 
