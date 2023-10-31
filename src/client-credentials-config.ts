@@ -4,6 +4,7 @@ export interface ClientCredentialsConfig {
   tokenUrl: string;
   retryIntervalMs: number;
   retryMaxAttempts: number;
+  timeoutMs?: number;
   onFetch?: (token: string) => void;
   onFetchError?: (error: Error) => void;
   onStartFetching?: () => void;
