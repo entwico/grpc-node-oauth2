@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/entwico/grpc-node-oauth2/compare/v1.1.2...v1.2.0) (2023-10-31)
+
+
+### Features
+
+* add timeout config ([5ee3e79](https://github.com/entwico/grpc-node-oauth2/commit/5ee3e79804880c39de3273709e3bcae736402f7e))
+* add timeout config ([f419f2e](https://github.com/entwico/grpc-node-oauth2/commit/f419f2e0341e7982bd23c17509410c378168fb41))
+
 ## [1.1.2](https://github.com/entwico/grpc-node-oauth2/compare/v1.1.1...v1.1.2) (2022-12-05)
 
 
