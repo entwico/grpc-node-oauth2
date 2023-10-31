@@ -28,7 +28,7 @@ export class TokenWallet {
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',
         },
-        timeout: this.config.timeoutMs,
+        timeout: this.config.timeoutMs ?? 10000,
       };
 
       this.config.onStartFetching?.();
